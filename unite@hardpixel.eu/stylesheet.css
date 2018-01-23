@@ -36,38 +36,47 @@
 }
 
 #panel .window-button {
-  width: 24px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
 }
 
 #panel .window-button.close {
-  background-image: url("assets/close.svg");
+  background-image: url("/usr/share/themes/Ambiance/unity/close_focused_normal.svg");
 }
 
 #panel .window-button.close:hover,
-#panel .window-button.close:active,
 #panel .window-button.close:focus {
-  background-image: url("assets/close-active.svg");
+  background-image: url("/usr/share/themes/Ambiance/unity/close_focused_prelight.svg");
+}
+
+#panel .window-button.close:active {
+  background-image: url("/usr/share/themes/Ambiance/unity/close_focused_pressed.svg");
 }
 
 #panel .window-button.minimize {
-  background-image: url("assets/minimize.svg");
+  background-image: url("/usr/share/themes/Ambiance/unity/minimize_focused_normal.svg");
 }
 
 #panel .window-button.minimize:hover,
-#panel .window-button.minimize:active,
 #panel .window-button.minimize:focus {
-  background-image: url("assets/minimize-active.svg");
+  background-image: url("/usr/share/themes/Ambiance/unity/minimize_focused_prelight.svg");
+}
+
+#panel .window-button.minimize:active {
+  background-image: url("/usr/share/themes/Ambiance/unity/minimize_focused_pressed.svg");
 }
 
 #panel .window-button.maximize {
-  background-image: url("assets/maximize.svg");
+  background-image: url("/usr/share/themes/Ambiance/unity/unmaximize_focused_normal.svg");
 }
 
 #panel .window-button.maximize:hover,
-#panel .window-button.maximize:active,
 #panel .window-button.maximize:focus {
-  background-image: url("assets/maximize-active.svg");
+  background-image: url("/usr/share/themes/Ambiance/unity/unmaximize_focused_prelight.svg");
+}
+
+#panel .window-button.maximize:active {
+  background-image: url("/usr/share/themes/Ambiance/unity/unmaximize_focused_pressed.svg");
 }
 
 #panel .tray-buttons-box {
