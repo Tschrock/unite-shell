@@ -32,12 +32,12 @@
 }
 
 #panel .window-buttons-box {
-  spacing: 2px;
+  spacing: 0;
 }
 
 #panel .window-button {
-  width: 19px;
-  height: 28px;
+  width: 22px;
+  height: 27px;
 }
 
 #panel .window-button.close {
@@ -81,6 +81,7 @@
 
 #panel .tray-icons-box {
   spacing: 10px;
+  margin-right: 4px;
 }
 
 #panel #appMenu {
