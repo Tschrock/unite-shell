@@ -173,7 +173,7 @@ var WindowDecoration = new Lang.Class({
   },
 
   _activate: function() {
-    Mainloop.idle_add(Lang.bind(this, this._addUserStyles));
+    //Mainloop.idle_add(Lang.bind(this, this._addUserStyles));
     Mainloop.idle_add(Lang.bind(this, this._undecorateWindows));
 
     if (!this._activated) {
